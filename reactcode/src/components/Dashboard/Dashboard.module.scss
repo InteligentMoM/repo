@@ -1,0 +1,127 @@
+.dashboard {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  background: #f5f3f3;
+}
+.dragsect {
+  width: 50%;
+  position: relative;
+  height: 100%;
+  background: #ffe600;
+}
+.dragin {
+  background: #ccc !important;
+}
+.dashHeader {
+  width: 100%;
+  padding: 10px 15px;
+}
+.messageBottm {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+.largeButton {
+  background: #ffffff !important;
+  left: calc(50% - 50px) !important;
+  width: 100px !important;
+  height: 100px !important;
+  top: calc(50% - 50px) !important;
+  position: absolute !important;
+}
+.largeButton svg {
+  width: 2em !important;
+  height: 2em !important;
+}
+.dashBody {
+  width: calc(100% - 32px);
+  padding: 10px 15px 10px 27px;
+  position: relative;
+}
+
+.messageSect {
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+
+.messageSectHeader {
+  width: calc(100% - 30px);
+  padding: 10px 15px;
+  background: #fff;
+  text-align: right;
+}
+.ChatTopName {
+  width: 80%;
+  position: relative;
+  display: inline-block;
+  bottom: -7px;
+  //left: 15px;
+}
+.ChatTopName b {
+  margin-right: 10px;
+}
+.ChatTopName span {
+  color: #aaa;
+}
+.chatTopMenu {
+  width: 20%;
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  opacity: 0;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+  transition-property: opacity;
+}
+.chatBox:hover .chatTopMenu {
+  opacity: 1;
+}
+.chatcontent {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  padding: 15px;
+}
+.userIco {
+  margin-bottom: -6px;
+  margin-right: 5px;
+}
+.chatBox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 7px;
+}
+.boxmuyi {
+  position: relative;
+  height: calc(100vh - 188px);
+  overflow: auto;
+}
+.audioBox {
+  margin-left: 12px;
+  margin-bottom: 30px;
+}
+.summeryContainer {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  padding: 15px;
+}
+mark {
+  background: #ffe600;
+}
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+/* Styles applied to the label container element if `label` is provided. */
+.labelContainer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 12px;
+}
